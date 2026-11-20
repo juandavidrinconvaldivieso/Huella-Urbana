@@ -51,17 +51,24 @@ header{
 
 p{
     font-size: medium;
-
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #Slogan{
-    
     color: #142922;
     font-size: 20pt;
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: norma
 }
 
 .parrafo{
     background-color: aquamarine;
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: norma
 }
 
 img{
@@ -71,9 +78,40 @@ img{
 }
 
 
-article{
+.normal{
     padding: 10pt;
     margin: 30pt;
     border: 5pt solid #518876;
+    background-color: #65a38e;
     border-radius: 30pt;
+}
+
+
+.planes{
+    padding: 10pt;
+    margin: 30pt;
+    border: 5pt solid #518876;
+    background-color: #8bc9b4;
+    border-radius: 75pt;
+}
+
+h1, h2, h3{
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+}
+
+li{
+    font-size: medium;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h4{
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #305348;
+  text-align: center;
 }
