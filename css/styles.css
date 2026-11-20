@@ -1,9 +1,49 @@
+:root{
+    --textos: #1D3B31;
+    --fondos: #142922;
+
+}
+
+.Boton1{
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    background-color: #518876;
+    color:#142922;
+    padding: 12pt 12pt 12pt 12pt;
+    margin: 20pt 0pt;
+    border: #1D3B31;
+    border-radius: 30pt;
+}
+
+.Boton1:hover{
+    background-color: #a6d4d0;
+    color: #518876;
+}
+
 body{
-    background-color:#A9DFDA;
-    color: #1D3B31}
+    color: #1D3B31;
+    text-align: center;
+    border: #518876;
+    
+}
+
+
+nav a {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #518876;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20pt;
+}
 
 header{
-    background-color: #a6d4d0;
+    background-color: #a2d1cc;
 }
 
 p{
@@ -24,5 +64,13 @@ p{
 img{
     width: 15%;
     height: 15%;
+    border-radius: 5pt;
 }
 
+
+article{
+    padding: 10pt;
+    margin: 30pt;
+    border: 5pt solid #518876;
+    border-radius: 30pt;
+}
