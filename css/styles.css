@@ -22,10 +22,12 @@
     color: #518876;
 }
 
+
+
 body{
     color: #1D3B31;
     text-align: center;
-    border: #518876;
+    border-radius: 20pt;
     
 }
 
@@ -44,6 +46,7 @@ nav li{
 
 header{
     background-color: #a2d1cc;
+    border-radius: 20pt;
 }
 
 p{
